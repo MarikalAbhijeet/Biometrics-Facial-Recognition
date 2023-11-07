@@ -1,28 +1,4 @@
-![](media/9f4f28a380919393844ffb2b7b02308d.png)
-
-**Biometrics**
-
-**(BCI3006)**
-
-**Topic:**
-
-**Facial recognition for ATM authentication**
-
-**Slot: B2**
-
-**Group members:**
-
-Aviral Sharma 16BCI0153
-
-Abhijeet Marikal 17BCI0009
-
-*Faculty: Prof USHA K*
-
-**School of Computing Science and Engineering**
-
-# 
-
-# *Contents*
+# Facial Recognition Using OpenCV
 
 -   CHAPTER-1
     -   Introduction
@@ -40,9 +16,6 @@ Abhijeet Marikal 17BCI0009
             -   \-\>training
             -   \-\>testing
 
-**ACKNOWLEDGEMENT**
-
-In performing our assignment, we had to take the help and guideline of some respected persons, who deserve our greatest gratitude. The completion of this project gives us much pleasure. We would like to show our gratitude **Prof USHA K**, our Biometrics Professor of Vellore Institute of Technology for giving us a good guideline for assignment throughout numerous consultations. We would also like to expand our deepest gratitude to all those who have directly and indirectly guided us in writing this project.
 
 # 
 
@@ -74,7 +47,8 @@ Security patterns are an agreed upon method to describe best practice solutions 
 
 # Ownership: Something only the user has
 
-![](media/8dff7524d1d7b0973289c601ac1f15d9.png)A possession may be a physical device given to an authorized user for authentication. Examples include hardware token, USB token or software token.
+![](media/8dff7524d1d7b0973289c601ac1f15d9.png)  
+A possession may be a physical device given to an authorized user for authentication. Examples include hardware token, USB token or software token.
 
 # Biometrics: Something only the user is
 
@@ -349,7 +323,7 @@ Our research covered four areas. In our first experiment, we explored the role o
 
 **Examining the role of edges of a face in face recognition**
 
-# Experiment 1 examines the role of edges and the outline of a human face in face recognition. We found out that edge-maps are a powerful initial representation for visual inputs. According to Richard Russell et al, 2005, they ―capture the most important aspects of images, while being largely invariant to shallow shading gradients that are often the result of illumination variations‖. Line-drawings are sufficiently recognized by human vision with quick pen portraits being often highly recognizable. Such images have a relatively high spatial frequency enough for facial recognition. They possess considerable contour information for defining luminance relations. Bruce et al, 1998 argued that these depictions possess photometric cues and contours that embody face‘s photometric structure. Pearson and Robinson, 1985 convincingly argued that such inclusions make human-generated line drawings better recognizable than computer-generated images.
+Experiment 1 examines the role of edges and the outline of a human face in face recognition. We found out that edge-maps are a powerful initial representation for visual inputs. According to Richard Russell et al, 2005, they ―capture the most important aspects of images, while being largely invariant to shallow shading gradients that are often the result of illumination variations‖. Line-drawings are sufficiently recognized by human vision with quick pen portraits being often highly recognizable. Such images have a relatively high spatial frequency enough for facial recognition. They possess considerable contour information for defining luminance relations. Bruce et al, 1998 argued that these depictions possess photometric cues and contours that embody face‘s photometric structure. Pearson and Robinson, 1985 convincingly argued that such inclusions make human-generated line drawings better recognizable than computer-generated images.
 
 # ![](media/905dd0d2db0071e8bb6fc6fe39680a51.png)
 
@@ -414,47 +388,3 @@ Face recognition needs to be advanced to overcome instabilities due to variable 
 Face recognition is a security measure in the field of computer vision, image analysis and pattern matching that is rather challenging to implement in systems to heighten system security and to curb unauthorized access. It has drawn much attention over the last few years because of its promising security features and its ability to be applied in various domains such as ID systems, voting systems, Automatic Teller Machines just to mention a few. Past research in this field over the last few years have shown good progress and the results obtained so far shows that current facial recognition systems have reached acceptable and reasonable security threshold value while under operation in dynamic conditions and environments.
 
 ATM access control has clearly shown that there exists a robust security specification that standardizes authentication in ATM machines. However, there are still a range of problems and pitfalls in identification and access control. We have keenly looked at the various security mechanisms of authentication available for identification and access control. We have analyzed passwords, PINs, smartcards and biometrics for their strengths and weaknesses. It is very important to have a strong non-intrusive access control mechanism to ensure that computerized resources are secure from unauthorized users. We have also looked at ease/difficulty of compromising these mechanisms and their cost of implementation. Future research should critically look at ethical hacking to expose other weaknesses of these access control mechanism.
-
-**REFERNCES**
-
-*1. A. Pentland, B. Moghaddam, and T. Starner, Viewbased and modular eigenspaces for face recognition, in IEEE Conference on Computer Vision and Pattern Recognition, 1994.*
-
-*2. Belhumeur, P.N. ; Hespanha, J.P. & Kriegman, D.J. (1997). Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection, IEEE Transactions (PAMI)*
-
-*3. Blanz, V., Romdhani, S., Vetter, T. Face Identification across Different Poses Chris Skinner, 2010.*
-
-*4. David W. Embley, Bernhard Thalheim(Eds.): Handbook of Conceptual Modeling, 2011.*
-
-*5. Davies, G., Ellis, H., and Shepherd, J. (1977) Cue saliency in faces as assessed by the 'Photofit' technique.*
-
-*6. Dimitri PISSARENKO, Eigenface-based facial recognition December 1, 2002 Donglin Liang, 1997. A Survey on ATM Security.*
-
-*7. Fraser, I. H., Craig, G. L., and Parker, D. M. (1990) Reaction time measures of feature saliency in schematic faces.*
-
-*8. Guthery S. and Jurgensen T.M. (2001): “Smartcard developer’s kit”, Macmillan technical publishing. ISBN 1-57870-027-2.*
-
-*9. Handbook of Face Recognition by Stan Z. Li Anil K. Jain.*
-
-*10. He, Y.; Zhao, L. & Zou, C. (2006). Face recognition using common faces method, Pattern Recognition.*
-
-*11. Heseltine, “Face Recognition:Two-Dimensional and Three-Dimensional Techniques” September 2005*
-
-*12. Jeff Johnson and Austin Henderson: Conceptual Models in a Nutshell , 2013*
-
-*13. John D. Woodward, Jr., Christopher Horn, Julius Gatune, Aryn Thomas, “Biometrics, A Look at Facial Recognition,” RAND, 2003.*
-
-*14. Kyungnam Kim, “Face Recognition using Principle Component Analysis”, Department of Computer Science, University of Maryland, College Park, USA,1990*
-
-*15. L. Sirovich and M. Kirby, "A Low-Dimensional Procedure for the Characterization of Human Faces," J. Optical Soc. Am. A, 1987,*
-
-*16. Lindsay I Smith, A tutorial on Principal Components Analysis, February 26, 2002.*
-
-*17. M. Yang, D. J. Kriegman, and N. Ahuja, "Detecting Face in Images: A Survey", IEEE Trans. on PAMI, Vol. 24, No. 1, pp. 3458, Jan. 2002.*
-
-*18. Matthew A. Turk, Alex P. Pentland, Face Recognition Using Eigenfaces, Proc. IEEE Conference on Computer Vision and Pattern Recognition: 586–591. 1991.*
-
-*19. Michael Kraus, Face the facts: facial recognition technology's troubled past--and troubling future, The Free Library, 2002.*
-
-*20. Moses MICHIRA, 2014. New crimes study in Kenya on Automatic Face and Gender Recognition, 2002.*
-
-*21. R. Brunelli, T. Poggio. Face Recognition through Geometrical Features. Proceedings ECCV92, 1992*
